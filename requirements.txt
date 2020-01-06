@@ -1,5 +1,9 @@
 numpy
 scipy
+Cython
 pandas
 sklearn
 statsmodels
+matplotlib
+adjustText
+pyreadr

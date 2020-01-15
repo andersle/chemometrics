@@ -8,5 +8,10 @@ Binder repository for the chemometrics courses: [TKJ4175](https://www.ntnu.edu/s
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andersle/chemometrics/master?filepath=%2Fexercises)
 
 
+### Most recent solutions (solutions_2020)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andersle/chemometrics/solutions_2020?filepath=solutions%2F)
+
 ### Most recent version full repository (master)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andersle/chemometrics/master)
+
+

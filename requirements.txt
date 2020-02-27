@@ -7,3 +7,6 @@ statsmodels
 matplotlib
 adjustText
 pyreadr
+tabulate
+requests
+lxml

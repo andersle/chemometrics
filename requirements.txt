@@ -10,3 +10,4 @@ pyreadr
 tabulate
 requests
 lxml
+graphviz

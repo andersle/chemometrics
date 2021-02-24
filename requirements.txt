@@ -11,3 +11,4 @@ tabulate
 requests
 lxml
 graphviz
+psynlig

@@ -12,3 +12,4 @@ requests
 lxml
 graphviz
 psynlig
+openpyxl

@@ -13,3 +13,4 @@ lxml
 graphviz
 psynlig
 openpyxl
+seaborn

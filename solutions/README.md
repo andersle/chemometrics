@@ -1,3 +1,3 @@
 # Solutions
 
-This folder contains jupyter notebook solutions to the exercises.
+Please see the [solutions branch](/andersle/chemometrics/tree/solutions)

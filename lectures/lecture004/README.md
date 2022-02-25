@@ -8,8 +8,3 @@
 
 * Example 3: Performing least squares for a difficult case and making use of training and test sets.
   [Open the example (concrete.ipynb) in binder.](https://mybinder.org/v2/gh/andersle/chemometrics/main?urlpath=/tree/lectures%2Flecture004%2Fconcrete.ipynb)
-
-# Example from Lecture 4.5 (on normal probability plots):
-
-* Example 4: Creating a normal probability plot.
-  [Open the example (NormalProbabilityPlot.ipynb) in binder.](https://mybinder.org/v2/gh/andersle/chemometrics/main?urlpath=/tree/lectures%2Flecture004%2FNormalProbabilityPlot.ipynb)

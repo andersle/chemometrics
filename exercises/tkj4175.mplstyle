@@ -1,0 +1,41 @@
+# Set x axis
+xtick.direction : out
+xtick.major.size : 5
+xtick.major.width : 1.5
+xtick.minor.size : 2.5
+xtick.minor.width : 0.5
+xtick.minor.visible : True
+xtick.top : False
+
+# Set y axis
+ytick.direction : out
+ytick.major.size : 5
+ytick.major.width : 1.5
+ytick.minor.size : 2.5
+ytick.minor.width : 0.5
+ytick.minor.visible : True
+ytick.right : False
+
+
+axes.spines.top: False
+axes.spines.right: False
+
+# Set line widths
+axes.linewidth : 0.5
+lines.linewidth : 3
+axes.grid : False
+axes.axisbelow : True
+grid.linestyle : --
+grid.color : k
+grid.alpha : 0.5
+grid.linewidth : 1.0
+
+# Accessible Color Cycles for Data Visualization
+# See: https://arxiv.org/abs/2107.02270
+axes.prop_cycle: cycler('color', ['5790fc', 'f89c20', 'e42536', '964a8b', '9c9ca1', '7a21dd'])
+# Remove legend frame
+legend.frameon : True
+
+# Always save as 'tight'
+savefig.bbox : tight
+savefig.pad_inches : 0.05

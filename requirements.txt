@@ -14,3 +14,4 @@ graphviz
 psynlig
 openpyxl
 seaborn
+pandas_profiling

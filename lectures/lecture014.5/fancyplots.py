@@ -13,7 +13,7 @@ from bokeh.transform import factor_cmap
 sns.set_theme(style="ticks", context="notebook", palette="muted")
 
 
-def add_yhat_vs_y(ax, model, X, y, title=""):
+def _add_yhat_vs_y(ax, model, X, y, title=""):
     """Add plot of y vs ŷ to given axis."""
     y_hat = model.predict(X)
     score = r2_score(y, y_hat)
@@ -35,9 +35,9 @@ def mpl_yhat_vs_y(model, X_train, y_train, X_test=None, y_test=None, title=""):
         fig, (ax1, ax2) = plt.subplots(
             constrained_layout=True, ncols=2, figsize=(8, 4)
         )
-    add_yhat_vs_y(ax1, model, X_train, y_train, title=f"{title} (train)")
+    _add_yhat_vs_y(ax1, model, X_train, y_train, title=f"{title} (train)")
     if X_test is not None and y_test is not None and ax2 is not None:
-        add_yhat_vs_y(ax2, model, X_test, y_test, title=f"{title} (test)")
+        _add_yhat_vs_y(ax2, model, X_test, y_test, title=f"{title} (test)")
     sns.despine(fig=fig)
     return [fig]
 
@@ -214,8 +214,34 @@ def bokeh_plot_coefficients(
     return column(*figures)
 
 
+def _select_loadings(model, x_type, y_type):
+    """Select loadings to use for the given PLS model."""
+    if x_type == "loadings":
+        loadingsx = model.x_loadings_
+    elif x_type == "weights":
+        loadingsx = model.x_weights_
+    else:
+        loadingsx = model.x_rotations_
+
+    if y_type == "loadings":
+        loadingsy = model.y_loadings_
+    elif y_type == "weights":
+        loadingsy = model.y_weights_
+    else:
+        loadingsy = model.y_rotations_
+    return loadingsx, loadingsy
+
+
 def mpl_plot_loadings(
-    model, xvars, yvars, variable_type, idx1=0, idx2=1, factor=1.5
+    model,
+    xvars,
+    yvars,
+    variable_type,
+    idx1=0,
+    idx2=1,
+    factor=1.0,
+    x_type="rotations",
+    y_type="loadings",
 ):
     """Plot loadings for a PLS model.
 
@@ -242,8 +268,7 @@ def mpl_plot_loadings(
         The figure created here.
     """
     fig, ax = plt.subplots(constrained_layout=True, figsize=(6, 6))
-    loadingsx = model.x_rotations_
-    loadingsy = model.y_loadings_
+    loadingsx, loadingsy = _select_loadings(model, x_type, y_type)
 
     types = [variable_type[i] for i in xvars]
     for typei in set(types):
@@ -283,7 +308,16 @@ def mpl_plot_loadings(
 
 
 def bokeh_plot_loadings(
-    model, xvars, yvars, variable_type, description, idx1=0, idx2=1, factor=1.5
+    model,
+    xvars,
+    yvars,
+    variable_type,
+    description,
+    idx1=0,
+    idx2=1,
+    factor=1.0,
+    x_type="rotations",
+    y_type="loadings",
 ):
     """Plot loadings for a PLS model with bokeh.
 
@@ -313,8 +347,7 @@ def bokeh_plot_loadings(
     """
     p = figure()
 
-    loadingsx = model.x_rotations_
-    loadingsy = model.y_loadings_
+    loadingsx, loadingsy = _select_loadings(model, x_type, y_type)
 
     types = [variable_type[i] for i in xvars]
 

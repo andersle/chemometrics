@@ -236,12 +236,13 @@ def mpl_plot_loadings(
     model,
     xvars,
     yvars,
-    variable_type,
+    variable_type=None,
     idx1=0,
     idx2=1,
     factor=1.0,
     x_type="rotations",
     y_type="loadings",
+    xylim=None,
 ):
     """Plot loadings for a PLS model.
 
@@ -270,7 +271,10 @@ def mpl_plot_loadings(
     fig, ax = plt.subplots(constrained_layout=True, figsize=(6, 6))
     loadingsx, loadingsy = _select_loadings(model, x_type, y_type)
 
-    types = [variable_type[i] for i in xvars]
+    if variable_type is None:
+        types = [i for i in xvars]
+    else:
+        types = [variable_type[i] for i in xvars]
     for typei in set(types):
         idx = [j for j, typej in enumerate(types) if typej == typei]
         ax.scatter(
@@ -298,8 +302,12 @@ def mpl_plot_loadings(
     ax.axhline(y=0, color="k", ls=":")
     ax.axvline(x=0, color="k", ls=":")
     ax.set_aspect("equal")
-    ax.set_xlim(-0.4, 0.4)
-    ax.set_ylim(-0.4, 0.4)
+    if xylim is None:
+        ax.set_xlim(-0.4, 0.4)
+        ax.set_ylim(-0.4, 0.4)
+    else:
+        ax.set_xlim(xylim)
+        ax.set_ylim(xylim)
     ax.set(xlabel=f"PLS component {idx1+1}", ylabel=f"PLS component {idx2+1}")
     ax.set_title("Loadings", loc="left")
     ax.legend()

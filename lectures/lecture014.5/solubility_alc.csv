@@ -1,4 +1,4 @@
-Compound ID,smiles,MolLogP,nAtom,measured log solubility in mols per litre,Molecular Weight
+Compound ID,smiles,MolLogP,nAtom,solubility (mol/L),Molecular Weight
 Amigdalin,N#CC(OC1OC(COC2OC(CO)C(O)C(O)C2O)C(O)C(O)C1O)c1ccccc1,-3.108019999999997,59.0,-0.77,457.4320000000001
 Estradiol,CC12CCC3c4ccc(O)cc4CCC3C1CCC2O,3.609200000000002,44.0,-5.03,272.388
 2-Methylbutanol,CCC(C)CO,1.0248,18.0,-0.47,88.14999999999998

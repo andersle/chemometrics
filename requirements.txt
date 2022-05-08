@@ -16,3 +16,5 @@ openpyxl
 seaborn
 pandas_profiling
 kneed
+bokeh
+rdkit-pypi

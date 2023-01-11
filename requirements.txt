@@ -2,7 +2,7 @@ numpy
 scipy
 Cython
 pandas
-sklearn
+scikit-learn
 statsmodels
 matplotlib
 adjustText

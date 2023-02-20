@@ -13,6 +13,7 @@ lxml
 graphviz
 psynlig
 openpyxl
+xlrd
 seaborn
 pandas_profiling
 kneed

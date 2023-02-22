@@ -19,3 +19,4 @@ pandas_profiling
 kneed
 bokeh
 rdkit
+mpltern

@@ -1,0 +1,5 @@
+bill.png
+penguins.csv
+rate_constant.xlsx
+somedata1.txt
+somedata2.txt

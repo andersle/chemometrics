@@ -15,11 +15,11 @@ To get started, you can either:
 * **Run the notebooks in Binder:** Press [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andersle/chemometrics/main?filepath=%2Fexercises) to launch an interactive environment where you can run the notebooks without any local setup.
 
 
-* **Run the notebooks in [Google Colab](https://colab.research.google.com/)**: Follow these steps:
+* **Run the notebooks in Google Colab:** Follow these steps:
     1. Navigate to the exercise notebook you want to open on GitHub.
     2. Copy the URL and modify it by replacing `github.com` with `githubtocolab.com`.
     3. Open the modified URL in your browser. This will open the notebook in Google Colab.
-    4. **Important:** To access data files, you'll need to download them individually from the GitHub repository and upload them to your Colab environment. You can use the following command in a Colab code cell to download a file:
+    4. **Important:** To access data files, you may need to download them individually from the GitHub repository and upload them to your Colab environment. You can find code to do this within the notebook.
 
 
 * **Clone the repository:** If you prefer to work locally, you can clone the repository to your computer:

@@ -1,3 +1,3 @@
-# Lectures
+# Lecture Notebooks and Examples
 
-This folder contains jupyter notebooks used in the lectures.
+This folder contains Jupyter notebook examples used in the lectures.

@@ -12,9 +12,8 @@ after the exercise deadline).
 
 To get started, you can either:
 
-* **Run the notebooks in Binder:** Press the icon below to launch an interactive environment where you can run the notebooks without any local setup.
+* **Run the notebooks in Binder:** Press [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andersle/chemometrics/main?filepath=%2Fexercises) to launch an interactive environment where you can run the notebooks without any local setup.
 
- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andersle/chemometrics/main?filepath=%2Fexercises)
 
 * **Run the notebooks in [Google Colab](https://colab.research.google.com/)**: Follow these steps:
     1. Navigate to the exercise notebook you want to open on GitHub.

@@ -1,4 +1,5 @@
 bill.png
+box.png
 penguins.csv
 rate_constant.xlsx
 somedata1.txt

@@ -5,11 +5,8 @@ This repository provides interactive Jupyter notebooks for the chemometrics cour
 ### Lectures
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andersle/chemometrics/main?filepath=%2Flectures)
 
-### Exercises
+### Exercises and Solutions
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andersle/chemometrics/main?filepath=%2Fexercises)
-
-### Solutions
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andersle/chemometrics/main?filepath=%2Fsolutions)
 
 ### Full Repository
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andersle/chemometrics/main?urlpath=/tree/)

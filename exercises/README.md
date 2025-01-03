@@ -1,19 +1,27 @@
 # Exercise notebooks and solutions
 
 This folder contains Jupyter notebook exercises and their corresponding solutions for TKJ4175/KJ8175.
-The solutions will be posted after the exercise deadline.
+The exercises are organized into numbered folders (e.g., `exercise-000`, `exercise-001`, etc.).
+Each folder typically contains:
+* Exercise notebook: A Jupyter notebook with instructions, code cells for you to complete, and questions to answer.
+* Solution notebook: A corresponding Jupyter notebook with the solutions to the exercises (made available
+after the exercise deadline).
+* Data files, figures and illustrations (if applicable): Any data files required for the exercises and figures/illutrations used in the notebooks.
 
 ## Getting Started
 
 To get started, you can either:
 
-* **Run the notebooks in [Binder](https://mybinder.org/):** [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andersle/chemometrics/main?filepath=%2Fexercises)
-   This will launch an interactive environment where you can run the notebooks without any local setup.
+* **Run the notebooks in Binder:** Press the icon below to launch an interactive environment where you can run the notebooks without any local setup.
+
+ [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andersle/chemometrics/main?filepath=%2Fexercises)
 
 * **Run the notebooks in [Google Colab](https://colab.research.google.com/)**: Follow these steps:
-    * Navigate to the notebook you want to open.
-    * Copy the URL and modify it by replacing `github.com` with `githubtocolab.com` (that is add `tocolab`).
-    * When the notebook has opened in Colab, copy the needed files:
+    1. Navigate to the exercise notebook you want to open on GitHub.
+    2. Copy the URL and modify it by replacing `github.com` with `githubtocolab.com`.
+    3. Open the modified URL in your browser. This will open the notebook in Google Colab.
+    4. **Important:** To access data files, you'll need to download them individually from the GitHub repository and upload them to your Colab environment. You can use the following command in a Colab code cell to download a file:
+
 
 * **Clone the repository:** If you prefer to work locally, you can clone the repository to your computer:
     ```bash
@@ -22,11 +30,6 @@ To get started, you can either:
 
 ## Exercises
 
-The exercises are organized into numbered folders (e.g., `exercise-000`, `exercise-001`, etc.).
-Each folder typically contains:
+Here's a brief overview of the exercises:
 
-* **Exercise notebook:** A Jupyter notebook with instructions, code cells for you to complete, and questions to answer.
-* **Solution notebook:** A corresponding Jupyter notebook with the solutions to the exercises.
-* **Data files, figures and illustrations (if applicable):** Any data files required for the exercises and figures/illutrations used in the notebooks.
-
-* exercise-000: This contains two Jupyter notebooks which you can use to familiarize yourself with Jupyter and to brush up on Python skills.
+* **exercise-000**: Contains two Jupyter notebooks to help you familiarize yourself with Jupyter and brush up on your Python skills.

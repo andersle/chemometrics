@@ -19,7 +19,7 @@ To get started, you can either:
     1. Navigate to the exercise notebook you want to open on GitHub.
     2. Copy the URL and modify it by replacing `github.com` with `githubtocolab.com`.
     3. Open the modified URL in your browser. This will open the notebook in Google Colab.
-    4. **Important:** To access data files, you may need to download them individually from the GitHub repository and upload them to your Colab environment. You can find code to do this within the notebook.
+    4. **Important:** To access data files, you may need to download them individually from the GitHub repository and upload them to your Colab environment.
 
 
 * **Clone the repository:** If you prefer to work locally, you can clone the repository to your computer:
@@ -31,6 +31,6 @@ To get started, you can either:
 
 Here's a brief overview of the exercises:
 
-* **exercise-000**: Contains two Jupyter notebooks to help you familiarize yourself with Jupyter and brush up on your Python skills.
+* **exercise-000**: Two Jupyter notebooks to help you familiarize yourself with Jupyter and brush up on your Python skills.
 * **exercise-001**: Least squares regression for linear and non-linear models.
 * **exercise-002**: Least squares regression with multiple variables and experimental design.

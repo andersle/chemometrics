@@ -1,0 +1,82 @@
+Variable,Description,type
+year,Year,other
+area_pva,"Area (in ha) occupied by the eastern migratory population of Monarch Butterflies overwintering  in Mexico, following methods of Semmens et al. (2016)",other
+apva_1yr,"Lagged by 1 year, Area (in ha) occupied by the eastern migratory population of Monarch Butterflies overwintering  in Mexico",Abundance
+popgrowth_pva,Year-to-year population rate of change; not used in analysis,other
+Prop_Inf,"Proportion of Monarch Butterflies infected with Ophryocystis elektroscirrha, as provided by S. Altizer and Monarch Health",Disease
+closum_N,"Clothianidin (kg), summed across the North region, annually, as provided by the USGS 2016 Pesticide National Synthesis Project and summarized by region by J. Rohweder",Pesticide
+closum_S,"Clothianidin (kg), summed across the South region, annually, as provided by the USGS 2016 Pesticide National Synthesis Project and summarized by region by J. Rohweder",Pesticide
+dinsum_N,"Dinotefuran (kg), summed across the North region, annually, as provided by the USGS 2016 Pesticide National Synthesis Project and summarized by region by J. Rohweder",Pesticide
+dinsum_S,"Dinotefuran (kg), summed across the South region, annually, as provided by the USGS 2016 Pesticide National Synthesis Project and summarized by region by J. Rohweder",Pesticide
+imisum_N,"Imidicloprid (kg), summed across the North region, annually, as provided by the USGS 2016 Pesticide National Synthesis Project and summarized by region by J. Rohweder",Pesticide
+imisum_S,"Imidcloprid (kg), summed across the South region, annually, as provided by the USGS 2016 Pesticide National Synthesis Project and summarized by region by J. Rohweder",Pesticide
+thisum_N,"Thiamethoxam (kg), summed across the North region, annually, as provided by the USGS 2016 Pesticide National Synthesis Project and summarized by region by J. Rohweder",Pesticide
+thisum_S,"Thiamethoxam (kg), summed across the South region, annually, as provided by the USGS 2016 Pesticide National Synthesis Project and summarized by region by J. Rohweder",Pesticide
+totalneon_N,"All four major neonicotinoids (kg), summed across the North region, annually, as provided by the USGS 2016 Pesticide National Synthesis Project and summarized by region by J. Rohweder",Pesticide
+totalneon_S,"All four major neonicotinoids (kg), summed across the South region, annually, as provided by the USGS 2016 Pesticide National Synthesis Project and summarized by region by J. Rohweder",Pesticide
+glysum_N,"Glyphosate (kg), summed across the North region, annually, as provided by the USGS 2016 Pesticide National Synthesis Project and summarized by region by J. Rohweder",Habitat
+glysum_S,"Glyphosate (kg), summed across the South region, annually, as provided by the USGS 2016 Pesticide National Synthesis Project and summarized by region by J. Rohweder",Habitat
+glycum_N,"Glyphosate (kg), cumulative across the North region, annually, as provided by the USGS 2016 Pesticide National Synthesis Project and summarized by region by J. Rohweder",Habitat
+glycum_S,"Glyphosate (kg), cumulative across the South region, annually, as provided by the USGS 2016 Pesticide National Synthesis Project and summarized by region by J. Rohweder",Habitat
+DC_N,"Dicamba (kg), summed across the North region, annually, as provided by the USGS 2016 Pesticide National Synthesis Project and summarized by region by J. Rohweder",Habitat
+twoD_N,"2,4-D (kg), summed across the North region, annually, as provided by the USGS 2016 Pesticide National Synthesis Project and summarized by region by J. Rohweder",Habitat
+DC_S,"Dicamba (kg), summed across the South region, annually, as provided by the USGS 2016 Pesticide National Synthesis Project and summarized by region by J. Rohweder",Habitat
+twoD_S,"2,4-D (kg), summed across the South region, annually, as provided by the USGS 2016 Pesticide National Synthesis Project and summarized by region by J. Rohweder",Habitat
+CRPsum_N,"Land (hectares) enrolled Conservation Reserve Program, summed across the North region, annually, as provided by U.S. Department of Agriculture, 2016 Conservation Reserve Program Statistics",Habitat
+CRPsum_S,"Land (hectares) enrolled Conservation Reserve Program, summed across the South region, annually, as provided by U.S. Department of Agriculture, 2016 Conservation Reserve Program Statistics",Habitat
+T70p1sum_NC,"Sum of the number of days >21.1 degrees C (70 degrees F) across North Central region, for Period 1, as provided by PRISM and summarized by region by A. Allstadt",Temperature
+T70p1sum_NE,"Sum of the number of days >21.1 degrees C (70 degrees F) across Northeastern region, for Period 1, as provided by PRISM and summarized by region by A. Allstadt",Temperature
+T70p2sum_NC,"Sum of the number of days >21.1 degrees C (70 degrees F) across North Central region, for Period 2, as provided by PRISM and summarized by region by A. Allstadt",Temperature
+T70p2sum_NE,"Sum of the number of days >21.1 degrees C (70 degrees F) across Northeastern region, for Period 2, as provided by PRISM and summarized by region by A. Allstadt",Temperature
+T70p3sum_NC,"Sum of the number of days >21.1 degrees C (70 degrees F) across North Central region, for Period 3, as provided by PRISM and summarized by region by A. Allstadt",Temperature
+T70p3sum_NE,"Sum of the number of days >21.1 degrees C (70 degrees F) across Northeastern region, for Period 3, as provided by PRISM and summarized by region by A. Allstadt",Temperature
+T70p4sum_NC,"Sum of the number of days >21.1 degrees C (70 degrees F) across North Central region, for Period 4, as provided by PRISM and summarized by region by A. Allstadt",Temperature
+T70p4sum_NE,"Sum of the number of days >21.1 degrees C (70 degrees F) across Northeastern region, for Period 4, as provided by PRISM and summarized by region by A. Allstadt",Temperature
+GDD_Ssp,"Growing Degree Days, South, spring, as provided by PRISM and summarized by region by A. Allstadt",Temperature
+GDD_NC,"Growing Degree Days, North Central, as provided by PRISM and summarized by region by A. Allstadt",Temperature
+GDD_NE,"Growing Degree Days, Northeastern, as provided by PRISM and summarized by region by A. Allstadt",Temperature
+GDD_Sf,"Growing Degree Days, South, fall, as provided by PRISM and summarized by region by A. Allstadt",Temperature
+LDD_Ssp,"Lethal Degree Days, South, spring, as provided by PRISM and summarized by region by A. Allstadt",Temperature
+LDD_NC,"Lethal Degree Days, North Central, as provided by PRISM and summarized by region by A. Allstadt",Temperature
+LDD_NE,"Lethal Degree Days, Northeast, as provided by PRISM and summarized by region by A. Allstadt",Temperature
+LDD_Sf,"Lethal Degree Days, South, fall, as provided by PRISM and summarized by region by A. Allstadt",Temperature
+Tempp1avg_NC,"Average temperature (degrees C), North Central, Period 1, as provided by PRISM and summarized by region by A. Allstadt",Temperature
+Tempp1avg_NE,"Average temperature (degrees C), Northeastern, Period 1, as provided by PRISM and summarized by region by A. Allstadt",Temperature
+Tempp2avg_NC,"Average temperature (degrees C), North Central, Period 2, as provided by PRISM and summarized by region by A. Allstadt",Temperature
+Tempp2avg_NE,"Average temperature (degrees C), Northeastern, Period 2, as provided by PRISM and summarized by region by A. Allstadt",Temperature
+Tempp3avg_NC,"Average temperature (degrees C), North Central, Period 3, as provided by PRISM and summarized by region by A. Allstadt",Temperature
+Tempp3avg_NE,"Average temperature (degrees C), Northeastern, Period 3, as provided by PRISM and summarized by region by A. Allstadt",Temperature
+Tempp4avg_NC,"Average temperature (degrees C), North Central, Period 4, as provided by PRISM and summarized by region by A. Allstadt",Temperature
+Tempp4avg_NE,"Average temperature (degrees C), Northeastern, Period 4,  as provided by PRISM and summarized by region by A. Allstadt",Temperature
+MeanJ_NC,"Mean June Temperature, North Central,  as provided by PRISM and summarized by region by A. Allstadt",Temperature
+MeanJ_NE,"Mean June Temperature, Northeastern,  as provided by PRISM and summarized by region by A. Allstadt",Temperature
+MeantempSp_S,"Mean Temperature, South, spring,  as provided by PRISM and summarized by region by A. Allstadt",Temperature
+TminAug_NC,"Percentage of days that below the 10th percentile for minimum temperatures, North Central, August,  as provided by PRISM and summarized by region by A. Allstadt",Temperature
+TminAug_NE,"Percentage of days that below the 10th percentile for minimum temperatures, Northeastern, August,  as provided by PRISM and summarized by region by A. Allstadt",Temperature
+TminJl_NC,"Percentage of days that below the 10th percentile for minimum temperatures, North Central, July,  as provided by PRISM and summarized by region by A. Allstadt",Temperature
+TminJl_NE,"Percentage of days that below the 10th percentile for minimum temperatures, Northeastern, July,  as provided by PRISM and summarized by region by A. Allstadt",Temperature
+TminJu_NC,"Percentage of days that below the 10th percentile for minimum temperatures, North Central, June,  as provided by PRISM and summarized by region by A. Allstadt",Temperature
+TminJu_NE,"Percentage of days that below the 10th percentile for minimum temperatures, Northeastern, June,  as provided by PRISM and summarized by region by A. Allstadt",Temperature
+NighttempF_S,"Nighttime Temperature, South, fall,  as provided by PRISM and summarized by region by A. Allstadt",Temperature
+DroughtSp_S,"Standardized precipitation index (March 1st - May 31st), South, spring,  as provided by PRISM and summarized by region by A. Allstadt",Precipitation
+Drought_NC,"Standardized precipitation index (June 1st - August 30th), North Central,  as provided by PRISM and summarized by region by A. Allstadt",Precipitation
+Drought_NE,"Standardized precipitation index (June 1st - August 30th), Northeastern,  as provided by PRISM and summarized by region by A. Allstadt",Precipitation
+Prec_S,"Precipitation (mm), South,  as provided by PRISM and summarized by region by A. Allstadt",Precipitation
+Ramirez.cumul,"Cumulative Overwinter Forest Loss (ha), Ramirez et al. study",Habitat
+Vidal.cumul,"Cumulative Overwinter Forest Loss (ha), Vidal et al. study",Habitat
+Ramirez.annu,"Sum Overwinter Forest Loss (ha), Ramirez et al. study",Habitat
+Vidal.annu,"Sum Overwinter Forest Loss (ha), Vidal et al. study",Habitat
+OWmean_temp,"Overwinter Mean Temperature (degrees F), as provided by Meteoblue for the Adolfo López Mateos International Airport, Mexico",Temperature
+OWmean_humid,"Overwinter Mean Relative Humidity (%), as provided by Meteoblue for the Adolfo López Mateos International Airport, Mexico",Precipitation
+OWtotal_precip,"Overwinter Total Precipitation (in), as provided by Meteoblue for the Adolfo López Mateos International Airport, Mexico",Precipitation
+OWmean_wind,"Overwinter Mean Wind (mph), as provided by Meteoblue for the Adolfo López Mateos International Airport, Mexico",Temperature
+OWmean_gust,"Overwinter Mean Gust (mph), as provided by Meteoblue for the Adolfo López Mateos International Airport, Mexico",Temperature
+OWmean_max_temp,"Overwinter Mean Maximum Temperature (degrees F), as provided by Meteoblue for the Adolfo López Mateos International Airport, Mexico",Temperature
+OWmean_min_temp,"Overwinter Mean Minimum Temperature (degrees F), as provided by Meteoblue for the Adolfo López Mateos International Airport, Mexico",Temperature
+OWmean_max_humid,"Overwinter Mean Maximum Relative Humidity (%), as provided by Meteoblue for the Adolfo López Mateos International Airport, Mexico",Precipitation
+OWmean_min_humid,"Overwinter Mean Minimum Relative Humidity (%), as provided by Meteoblue for the Adolfo López Mateos International Airport, Mexico",Precipitation
+OWmean_max_wind,"Overwinter Mean Maximum Wind (mph), as provided by Meteoblue for the Adolfo López Mateos International Airport, Mexico",Temperature
+OWmean_min_wind,"Overwinter Mean Minimum Wind (mph), as provided by Meteoblue for the Adolfo López Mateos International Airport, Mexico",Temperature
+OWmean_max_gust,"Overwinter Mean Maximum Gust (mph), as provided by Meteoblue for the Adolfo López Mateos International Airport, Mexico",Temperature
+milkweed resource,"Milkweed Resource (units of equivalent stems), Pleasants (2016)",other
+log milkweed resource,"Log(Milkweed Resource), Pleasants (2016)",other

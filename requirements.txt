@@ -22,3 +22,5 @@ rdkit
 mpltern
 git+https://github.com/jmmaloney3/gapstat
 pre-commit
+black
+jupyter_black

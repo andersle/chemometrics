@@ -29,8 +29,12 @@ To get started, you can either:
 
 ## Exercises
 
-Here's a brief overview of the exercises:
+Here is a brief overview of the exercises:
 
 * **exercise-000**: Two Jupyter notebooks to help you familiarize yourself with Jupyter and brush up on your Python skills.
 * **exercise-001**: Least squares regression for linear and non-linear models.
 * **exercise-002**: Least squares regression with multiple variables and experimental design.
+* **exercise-003**: Experimental design (full and fractional).
+* **exercise-004**: Principal component analysis and clustering.
+* **exercise-005**: Partial least squares regression and making use of training and testing sets.
+* **exercise-006**: Classification.

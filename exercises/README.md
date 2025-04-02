@@ -38,3 +38,4 @@ Here is a brief overview of the exercises:
 * **exercise-004**: Principal component analysis and clustering.
 * **exercise-005**: Partial least squares regression and making use of training and testing sets.
 * **exercise-006**: Classification.
+* **exercise-007**: Signal processing (multiplicative scatter correction and splines).

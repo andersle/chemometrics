@@ -3,7 +3,7 @@ requires = ["setuptools >= 77.0.3"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "tkj4175-kj8175-chemometrics"
+name = "chemometrics-ntnu"
 version = "2026.1"
 
 [tool.ruff]

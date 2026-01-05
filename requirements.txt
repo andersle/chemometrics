@@ -13,7 +13,7 @@ lxml
 graphviz
 openpyxl
 xlrd
-pandas_profiling
+ydata-profiling
 kneed
 bokeh
 mpltern

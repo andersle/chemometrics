@@ -1,3 +1,11 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tkj4175-kj8175-chemometrics"
+version = "2026.1"
+
 [tool.ruff]
 line-length = 79
 
@@ -9,7 +17,7 @@ convention = "google"
 
 [tool.black]
 line-length = 79
-target-version = ["py312", "py313"]
+target-version = ["py313", "py314"]
 
 [tool.codespell]
 skip = "*.pdf,*.svg,*.png"

@@ -5,6 +5,9 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "chemometrics-2026"
 version = "2026.1"
+requires-python = ">=3.13"
+description = "Jupyter repo for chemometrics exercises (TKJ4175 & KJ8175)"
+readme = "README.md"
 
 [tool.ruff]
 line-length = 79

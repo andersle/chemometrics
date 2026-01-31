@@ -32,3 +32,6 @@ To get started, you can either:
 Here is a brief overview of the exercises:
 
 * **exercise-000**: Two Jupyter notebooks to help you familiarize yourself with Jupyter and brush up on your Python skills.
+* **exercise-001**: Least squares regression (linear and non-linear).
+* **exercise-002**: Least squares regression with many variables and analysing an experimental design.
+* **exercise-003**: Analysing results from experimental designs.

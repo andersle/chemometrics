@@ -35,3 +35,4 @@ Here is a brief overview of the exercises:
 * **exercise-001**: Least squares regression (linear and non-linear).
 * **exercise-002**: Least squares regression with many variables and analysing an experimental design.
 * **exercise-003**: Analysing results from experimental designs.
+* **exercise-004**: PCA and clustering.

@@ -37,3 +37,4 @@ Here is a brief overview of the exercises:
 * **exercise-003**: Analysing results from experimental designs.
 * **exercise-004**: PCA and clustering.
 * **exercise-005**: PCA, outliers, and clustering.
+* **exercise-006**: PLS, training, testing, and cross-validation.
